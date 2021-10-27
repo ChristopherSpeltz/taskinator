@@ -32,6 +32,9 @@ else {
 
     createTaskEl(taskDataObj);
 }
+
+formEl.reset();
+
 };
 
 var completeEditTask = function(taskName, taskType, taskId) {
